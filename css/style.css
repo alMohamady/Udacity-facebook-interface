@@ -234,3 +234,28 @@ ul{
 #footer li a:hover {
    text-decoration: underline;
 }
+.more-lang {
+    display: block;
+	padding: 4px 9px;
+	background-color: #f6f7f9;
+	border: 1px solid #ced0d4;
+	color: #4b4f56;
+	border-radius: 2px;
+	transition: background-color 0.2s;
+}
+.plus-icon{
+	display: block;
+	background: url('../images/icons.png') no-repeat -39px -202px;
+	width: 10px;
+	height: 10px;
+}
+.more-lang:hover{
+    background-color: #ececec;
+}
+.languages::after{
+    content: "";
+	display: block;
+    width: 100%;
+	border-top: 1px solid #dddfe2;
+	margin:10px 0 8px;
+}

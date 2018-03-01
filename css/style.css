@@ -174,3 +174,36 @@ input:focus{
    font-size: 19px;
    font-weight: bold;
 }
+.float-right table tr:nth-of-type(3) td{
+   padding-top: 15px;
+}
+.float-right table tr:nth-of-type(5) td{
+   padding-bottom: 15px;
+}
+.float-right table tr:nth-of-type(7) a,
+.float-right table a{
+    display: inline-block;
+	font-size: 11px;
+	max-width: 150px;
+	color: #365899;
+	cursor: pointer;
+	text-decoration: none;
+	line-height: 14px;
+}
+.float-right table tr:nth-of-type(7) a:hover,
+.float-right table a:hover{
+   text-decoration: underline;
+}
+.float-right table tr:last-of-type p{
+   border-top: 1px solid #ddfe2;
+   color: #666;
+   font-size: 13px;
+   font-weight: bold;
+   margin-top: 10px;
+   padding-top: 15px;
+   width: auto;
+}
+.float-right table tr:last-of-type p a {
+   font-size: 13px;
+   font-weight: bold;
+}

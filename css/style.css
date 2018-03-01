@@ -138,3 +138,24 @@ input:focus{
 .float-right table select:nth-of-type(3){
     margin-left: -4px;
 }
+.float-right table h2{
+   font-size: 36px;
+   color: #333;
+   margin: 17px auto 0; 
+}
+.float-right table span{
+   color: #1d2129;
+   font-size: 19px; 
+}
+.float-right table p{
+   color: #777;
+   font-size: 11px;
+   width: 316px;
+   line-height: 14px;
+}
+.float-right table div{
+   display: inline-block;
+   color: #1d2129;
+   font-size: 18px;
+   padding: 5px 10px 0 3px;
+}
